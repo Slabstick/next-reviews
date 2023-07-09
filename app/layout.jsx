@@ -5,7 +5,7 @@ import './globals.css';
 export default function RootLayout({ children }) {
 	return(
 		<html lang="en">
-			<body className="bg-orange-50 flex flex-col px-4 py-2 min-h-screen">
+			<body className="bg-slate-300 flex flex-col px-4 py-2 min-h-screen">
 				<header>
 					<NavBar />
 				</header>
@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
 					<a 
 						href="https://rawg.io" 
 						target="_blank"
-						className="text-orange-800 hover:underline">
+						className="text-slate-700 hover:underline">
 						RAWG
 					</a>
 				</footer>
